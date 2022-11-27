@@ -1874,6 +1874,10 @@ subroutine CALFUN(X,F,PROBLEM,INFO)
         F=0.0D0
 end subroutine
 
+! EPS1 denotes the addition part of the mixed noise
+! EPS2 denotes the multiplication part of the mixed noise
+! Users can design their own noises for different transformation.
+! This is for the test.
 
 subroutine CALGREY(X,K,G,FLAG,EPS,EPS1,EPS2,RAND,PROBLEM,FLAG_Epsilonk,INFO)
 
