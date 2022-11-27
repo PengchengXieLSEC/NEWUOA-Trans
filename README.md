@@ -1,6 +1,6 @@
 # NEWUOA-Trans.F90
 
-NEWUOA-Trans consideres solving the derivative-free optimization problems with transformed objective function (DFOTO problems). It is based on the NEWUOA-Fortran77 code of the late Professor Michael J. D. Powell.
+NEWUOA-Trans considers solving the derivative-free optimization problems with transformed objective function (DFOTO problems). It is based on the NEWUOA-Fortran77 code of the late Professor Michael J. D. Powell.
 
 Copyrighted by Pengcheng Xie and Prof. Ya-xiang Yuan.
 
