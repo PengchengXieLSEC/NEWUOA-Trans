@@ -8,6 +8,9 @@
 !! Chinese Academy of Sciences, China
 
 
+!! The solution will be writen in a automatically-created file named by solution.csv.
+
+
 !! Main routine
 MODULE newuoa_module
 
