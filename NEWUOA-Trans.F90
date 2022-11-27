@@ -1945,7 +1945,7 @@ subroutine CALGREY(X,K,G,FLAG,EPS,EPS1,EPS2,RAND,PROBLEM,FLAG_Epsilonk,INFO)
                     ! F=100.0D0*F
 
                     Epsilonk=EPS2(K)
-                    G=G+EPS2(K)*(G)+EPS1(K)
+                    G=G+EPS2(K)*(G) !+EPS1(K)
                 ELSE
                     G=G+EPS1(K)
                 END IF
