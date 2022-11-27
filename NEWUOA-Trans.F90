@@ -1815,7 +1815,7 @@ PROGRAM test_newuoa
         character(len=15) :: PROBLEM 
         integer*4 :: FLAG_Epsilonk
 
-        FLAG_Epsilonk=1
+        FLAG_Epsilonk=1 ! 0 or 1 or 2
 
         nvar=20
         ALLOCATE(X(nvar))
@@ -1825,7 +1825,7 @@ PROGRAM test_newuoa
         call random_number(Y)
 
         OPEN(1,FILE='solution.csv')
-        DO IP=1,3
+        DO IP=1,94
             PROBLEM=a(IP)
 
             DO I=1,SIZE(X)
