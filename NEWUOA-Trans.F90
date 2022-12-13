@@ -1976,7 +1976,7 @@ subroutine Laplace(beta,Epsilonk)
         !            Epsilonk=0.0
         !    END IF
 end subroutine Laplace
-!The above codes are made in Fortran 90 language, if you have any question, you may write to sealin2008@hotmail.com
+
 
 
 
